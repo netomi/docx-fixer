@@ -73,7 +73,7 @@ class DocxFixerCommand : Runnable {
                         val outputStream = ByteArrayOutputStream()
                         serializer.setOutput(outputStream, null)
 
-                        (Roundtrip(pp, serializer)).roundTrip()
+                        Roundtrip(pp, serializer).roundTrip()
 
                         println("replacing fixed file in output file '${outputFilePath.name}'...")
                         fileInsideZipPath.deleteExisting()
