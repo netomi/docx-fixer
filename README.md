@@ -9,7 +9,7 @@ A typical error message where this tool can help is (from Libreoffice):
 SAXException: [word/document.xml line 2]: Opening and ending tag mismatch: Fallback line 0 and p
 ```
 
-The tool might be able to help fix the problem by making sure that the embedded xml content is well-formed again, allowing open the file correctly again.
+The tool might be able to help fix the problem by making sure that the embedded xml content is well-formed again, allowing to open the file correctly again.
 
 # Usage
 
